@@ -2,4 +2,6 @@ node_modules/
 
 auth.htpasswd*
 
+fll-timer.code-workspace
+
 deploy/

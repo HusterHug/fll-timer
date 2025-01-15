@@ -42,6 +42,8 @@ function renderTeams() {
 
 		fadeText($('#leftteam'), getRealTeam(showtables[0]));
 		fadeText($('#rightteam'), getRealTeam(showtables[1]));
+		fadeText($('#leftteam2'), getRealTeam(showtables[2]));
+		fadeText($('#rightteam2'), getRealTeam(showtables[3]));
 	}
 }
 
@@ -54,6 +56,8 @@ function renderTables() {
 	if (showtables !== null) {
 		$('#lefttable').text(tables[showtables[0]]);
 		$('#righttable').text(tables[showtables[1]]);
+		$('#lefttable2').text(tables[showtables[2]]);
+		$('#righttable2').text(tables[showtables[3]]);
 
 		renderLogos();
 	}
@@ -67,6 +71,8 @@ function renderTop() {
 function renderLogos() {
 	$('#leftlogo img').attr('src', '/img/' + logos[showtables[0]]);
 	$('#rightlogo img').attr('src', '/img/' + logos[showtables[1]]);
+	$('#leftlogo2 img').attr('src', '/img/' + logos[showtables[2]]);
+	$('#rightlogo2 img').attr('src', '/img/' + logos[showtables[3]]);
 }
 
 socket.on('teams', function(data) {
@@ -117,6 +123,8 @@ $(function() {
 		showtables = [-1, -1];
 		showtables[0] = parseInt($('#leftselect option:selected').first().val());
 		showtables[1] = parseInt($('#rightselect option:selected').first().val());
+		showtables[2] = parseInt($('#leftselect2 option:selected').first().val());
+		showtables[3] = parseInt($('#rightselect2 option:selected').first().val());
 
 		$('#tableselect').hide();
 		$('#tablenames').show();

@@ -2,6 +2,8 @@ body {
 	padding-top: 70px;
 }
 
+
+
 /* http://stackoverflow.com/a/24985857 */
 ol li.list-group-item {
 	list-style: decimal inside;

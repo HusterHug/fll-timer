@@ -9,7 +9,8 @@ html, body, table {
 }
 
 .teamname {
-	width: 50%;
+	width: 25%;
+	height: 25%;
 	text-align: center;
 
 	word-break: break-all;
@@ -30,7 +31,8 @@ html, body, table {
 }
 
 .tablename {
-	width: 50%;
+	width: 25%;
+	height: 25%;
 	text-align: center;
 
 	word-break: break-all;
@@ -60,7 +62,7 @@ html, body, table {
 }
 
 #tablelogos {
-	height: 20vh !important;
+	height: 10vh !important;
 }
 
 .vcenter {
@@ -70,7 +72,7 @@ html, body, table {
 }
 
 #tablelogos img {
-	max-height: 20vh;
+	max-height: 10vh;
 }
 
 #topbanner {
@@ -79,7 +81,7 @@ html, body, table {
 
 #topbanner .sideimg {
 	max-height: 25vh;
-	margin-top: 5vh;
+	margin-top: 1vh;
 }
 
 #topbanner #midimg {
