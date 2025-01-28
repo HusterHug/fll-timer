@@ -3,7 +3,9 @@
         " ",
         "-VABA",
         "-EXTRA",
-        "+PREV"
+        "+PREV",
+        "fdsgdfg",
+        "dfgdfgdfg"
     ],
     "tables": [
         "Tartu Ülikool 1",
@@ -34,7 +36,18 @@
         },
         {
             "name": "1. voor",
-            "matches": []
+            "matches": [
+                {
+                    "time": "00:00-00:00",
+                    "tables": [
+                        4,
+                        null,
+                        5,
+                        null,
+                        null
+                    ]
+                }
+            ]
         },
         {
             "name": "1./2. voor",

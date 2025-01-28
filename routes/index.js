@@ -22,4 +22,8 @@ router.get('/clock', function(req, res) {
 	res.render('clock');
 });
 
+router.get('/button', function(req, res) {
+	res.render('button');
+});
+
 module.exports = router;
