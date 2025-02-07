@@ -62,7 +62,7 @@ html, body, table {
 }
 
 #tablelogos {
-	height: 10vh !important;
+	height: 20vh !important;
 }
 
 .vcenter {
@@ -72,7 +72,7 @@ html, body, table {
 }
 
 #tablelogos img {
-	max-height: 10vh;
+	max-height: 20vh;
 }
 
 #topbanner {

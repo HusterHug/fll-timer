@@ -4,8 +4,30 @@
         "-VABA",
         "-EXTRA",
         "+PREV",
-        "fdsgdfg",
-        "dfgdfgdfg"
+        "Laagri JR. Unicorns",
+        "Hõbeliiva terakesed",
+        "Tellised",
+        "HEX (0_0)",
+        "AH?",
+        "LEGO Progejad",
+        "Laagri Hapukurgid",
+        "Laagri Leivapätsikesed",
+        "Tiimi Nimi",
+        "Prussakad",
+        "Porgand",
+        "Essad",
+        "Automaatnetulekahjusignalisatsiooni süsteem",
+        "Arbuusikesed",
+        "ÖÖKULLID",
+        "Pelmeenid",
+        "HiPro",
+        "AKT",
+        "HastaLalaVista",
+        "Mesilased",
+        "MAT BASIC",
+        "Laagri Krevetid",
+        "Karukass",
+        "Sipsikud"
     ],
     "tables": [
         "Tartu Ülikool 1",
@@ -15,7 +37,7 @@
         "Tartu"
     ],
     "logos": [
-        "TÜ_logod_17122015_horisontaal_est_sinine.png",
+        "ty_teaduskool_est_sinine-txt.png",
         "TÜ_logod_17122015_horisontaal_est_sinine.png",
         "Suur_3_robomiku_final.png",
         "Suur_3_robomiku_final.png",
@@ -24,7 +46,18 @@
     "rounds": [
         {
             "name": "Avamine",
-            "matches": []
+            "matches": [
+                {
+                    "time": "09:30-10:00",
+                    "tables": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                }
+            ]
         },
         {
             "name": "Roboti disain",
@@ -38,12 +71,62 @@
             "name": "1. voor",
             "matches": [
                 {
-                    "time": "00:00-00:00",
+                    "time": "11:00-11:20",
+                    "tables": [
+                        11,
+                        12,
+                        13,
+                        14,
+                        null
+                    ]
+                },
+                {
+                    "time": "11:20-11:40",
+                    "tables": [
+                        15,
+                        16,
+                        17,
+                        18,
+                        null
+                    ]
+                },
+                {
+                    "time": "11:40-12:00",
+                    "tables": [
+                        19,
+                        20,
+                        21,
+                        22,
+                        null
+                    ]
+                },
+                {
+                    "time": "12:00-12:20",
+                    "tables": [
+                        23,
+                        24,
+                        25,
+                        26,
+                        null
+                    ]
+                },
+                {
+                    "time": "12:20-12:40",
                     "tables": [
                         4,
-                        null,
                         5,
-                        null,
+                        6,
+                        7,
+                        null
+                    ]
+                },
+                {
+                    "time": "12:40-13:00",
+                    "tables": [
+                        27,
+                        8,
+                        9,
+                        10,
                         null
                     ]
                 }
@@ -55,7 +138,68 @@
         },
         {
             "name": "2. voor",
-            "matches": []
+            "matches": [
+                {
+                    "time": "13:20-13:30",
+                    "tables": [
+                        23,
+                        24,
+                        25,
+                        26,
+                        null
+                    ]
+                },
+                {
+                    "time": "13:30-13:40",
+                    "tables": [
+                        19,
+                        20,
+                        21,
+                        22,
+                        null
+                    ]
+                },
+                {
+                    "time": "13:40-13:50",
+                    "tables": [
+                        4,
+                        5,
+                        6,
+                        7,
+                        null
+                    ]
+                },
+                {
+                    "time": "13:50-14:00",
+                    "tables": [
+                        8,
+                        9,
+                        10,
+                        27,
+                        null
+                    ]
+                },
+                {
+                    "time": "14:00-14:10",
+                    "tables": [
+                        11,
+                        12,
+                        13,
+                        14,
+                        null
+                    ]
+                },
+                {
+                    "time": "14:10-14:20",
+                    "tables": [
+                        15,
+                        16,
+                        17,
+                        18,
+                        null
+                    ]
+                }
+            ]
         },
         {
             "name": "2./3. voor",
@@ -63,7 +207,68 @@
         },
         {
             "name": "3. voor",
-            "matches": []
+            "matches": [
+                {
+                    "time": "14:40-14:50",
+                    "tables": [
+                        4,
+                        5,
+                        6,
+                        7,
+                        null
+                    ]
+                },
+                {
+                    "time": "14:50-15:10",
+                    "tables": [
+                        8,
+                        9,
+                        10,
+                        15,
+                        null
+                    ]
+                },
+                {
+                    "time": "15:10-15:20",
+                    "tables": [
+                        27,
+                        16,
+                        17,
+                        18,
+                        null
+                    ]
+                },
+                {
+                    "time": "15:20-15:40",
+                    "tables": [
+                        23,
+                        24,
+                        25,
+                        26,
+                        null
+                    ]
+                },
+                {
+                    "time": "15:40-15:50",
+                    "tables": [
+                        11,
+                        12,
+                        13,
+                        14,
+                        null
+                    ]
+                },
+                {
+                    "time": "15:50-16:00",
+                    "tables": [
+                        19,
+                        20,
+                        21,
+                        22,
+                        null
+                    ]
+                }
+            ]
         },
         {
             "name": "Finaalid",
@@ -75,37 +280,38 @@
         }
     ],
     "songs": [
-        "believer.mp3",
-        "booyah.mp3",
-        "bullit.mp3",
-        "cream.mp3",
-        "dashstar.mp3",
-        "Deja-Vu.mp3",
-        "Drop It.mp3",
-        "Freaks.mp3",
-        "Freestaylo.mp3",
-        "freestyler.mp3",
-        "Gold Dust.mp3",
-        "gorilla.mp3",
-        "heymama.mp3",
+        "Still Sleepless.mp3",
+        "springfield.mp3",
         "It's That Time - Dimension Remix.mp3",
         "littleless.mp3",
-        "narcotic.mp3",
-        "Power.mp3",
-        "Ragga Bomb.mp3",
-        "Rasputin.mp3",
-        "Ready To Rock.mp3",
-        "Rhyme Dust - Dimension Remix.mp3",
-        "Ride With Me.mp3",
-        "Rio.mp3",
-        "Secrets.mp3",
-        "springfield.mp3",
-        "Still Sleepless.mp3",
-        "streisand.mp3",
+        "Drop It.mp3",
+        "Freestaylo.mp3",
+        "booyah.mp3",
         "Trumpets.mp3",
-        "tsunami.mp3",
+        "Freaks.mp3",
+        "heymama.mp3",
+        "Rasputin.mp3",
+        "Rhyme Dust - Dimension Remix.mp3",
+        "Deja-Vu.mp3",
+        "cream.mp3",
+        "bullit.mp3",
+        "Rio.mp3",
+        "Yellow Submarine.mp3",
+        "Power.mp3",
+        "Ride With Me.mp3",
+        "Secrets.mp3",
+        "narcotic.mp3",
+        "Voodoo People.mp3",
+        "Ragga Bomb.mp3",
+        "gorilla.mp3",
+        "Gold Dust.mp3",
+        "streisand.mp3",
+        "Ready To Rock.mp3",
+        "freestyler.mp3",
+        "believer.mp3",
         "turndown.mp3",
-        "Voodoo People.mp3"
+        "tsunami.mp3",
+        "dashstar.mp3"
     ],
     "texts": {
         "free": "VABA"
